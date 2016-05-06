@@ -27,6 +27,9 @@ class ViewController: UIViewController {
 
     @IBAction func makeKanyeSing(sender: AnyObject)
     {
+        if(frameNum == 24) {
+            frameNum = 0
+        }
         
         frameNum += 1
         
